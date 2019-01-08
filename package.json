@@ -5,7 +5,7 @@
       "data-structure",
       "queue"
     ],
-    "description": "Simple queues implementation.",
+    "description": "Simple queue implementation.",
     "main": "index.js",
     "scripts": {
       "test": "jest"
