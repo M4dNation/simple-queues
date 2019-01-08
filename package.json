@@ -1,0 +1,22 @@
+{
+    "name": "simple-queues",
+    "version": "0.0.1",
+    "keywords": [
+      "data-structure",
+      "queue"
+    ],
+    "description": "Simple queues implementation.",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": "https://github.com/M4dNation/simple-queues",
+    "license": "MIT",
+    "devDependencies": {
+      "jest": "^23.6.0"
+    },
+    "jest": {
+      "coverageDirectory": "./coverage/",
+      "collectCoverage": true
+    }
+  }
