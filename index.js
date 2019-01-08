@@ -1,4 +1,4 @@
-const { Queue } = require("./src/Queue");
+const Queue = require("./src/Queue");
 
 export {
     Queue
