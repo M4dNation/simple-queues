@@ -30,11 +30,10 @@ import { Queue } from "simple-queues";
 const queue = new Queue();
 const myData = {id: "some-id"};
 
-list.addToHead(node); // Add the node to the head of the list
-list.addToTail(node); // Add the node to the tail of the list
-list.removeHead(); // Remove the head node of the list
-list.removeTail(); // Remove the tail node of the list
+queue.enqueue(myData);
+queue.enqueue("test1");
 
+queue.dequeue();
 ```
 
 ## Authors
