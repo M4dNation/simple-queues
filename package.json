@@ -13,7 +13,7 @@
     "repository": "https://github.com/M4dNation/simple-queues",
     "license": "MIT",
     "devDependencies": {
-      "jest": "^23.6.0"
+      "jest": "23.6.0"
     },
     "jest": {
       "coverageDirectory": "./coverage/",
