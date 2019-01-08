@@ -1,4 +1,4 @@
-import { Queue } from "./src/Queue";
+const { Queue } = require("./src/Queue");
 
 export {
     Queue
