@@ -1,5 +1,9 @@
 # simple-queues
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![npm version](https://badge.fury.io/js/simple-queues.svg)](https://badge.fury.io/js/simple-queues)
+[![Build Status](https://travis-ci.com/M4dNation/simple-queues.svg?branch=master)](https://travis-ci.com/M4dNation/simple-queues) ![](https://david-dm.org/M4dNation/simple-queues.svg) [![codecov](https://codecov.io/gh/M4dNation/simple-queues/branch/develop/graph/badge.svg)](https://codecov.io/gh/M4dNation/simple-queues)
+
 ## About
 
 `simple-queues` is a package for creating a queue structure.  
@@ -28,7 +32,7 @@ Once imported, you just have to instanciate a Queue and add data to have an usab
 import { Queue } from "simple-queues";
 
 const queue = new Queue();
-const myData = {id: "some-id"};
+const myData = { id: "some-id" };
 
 queue.enqueue(myData);
 queue.enqueue("test1");
@@ -70,7 +74,7 @@ Moreover, Pull Requests should always come with related unit tests, and won't be
 `simple-queues` uses jest for unit testing.  
 If you don't know about jest yet, you can check out their [documentation](https://jestjs.io/en/).
 
-To run the tests, just run : 
+To run the tests, just run :
 
 `yarn test`
 

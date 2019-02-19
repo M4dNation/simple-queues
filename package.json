@@ -1,22 +1,58 @@
 {
-    "name": "simple-queues",
-    "version": "1.0.3",
-    "keywords": [
-      "data-structure",
-      "queue"
+  "name": "simple-queues",
+  "version": "1.0.3",
+  "keywords": [
+    "data-structure",
+    "queue"
+  ],
+  "description": "Simple queue implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "xo"
+  },
+  "repository": "https://github.com/M4dNation/simple-queues",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "24.1.0",
+    "xo": "0.24.0"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true
+  },
+  "xo": {
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "promise/prefer-await-to-then": "warn"
+    },
+    "ignores": [
+      "node_modules"
     ],
-    "description": "Simple queue implementation.",
-    "main": "index.js",
-    "scripts": {
-      "test": "jest"
-    },
-    "repository": "https://github.com/M4dNation/simple-queues",
-    "license": "MIT",
-    "devDependencies": {
-      "jest": "23.6.0"
-    },
-    "jest": {
-      "coverageDirectory": "./coverage/",
-      "collectCoverage": true
-    }
+    "overrides": [
+      {
+        "files": [
+          "tests/**"
+        ],
+        "globals": [
+          "describe",
+          "test",
+          "expect",
+          "afterEach",
+          "beforeEach",
+          "beforeAll",
+          "jest",
+          "jasmine"
+        ]
+      }
+    ]
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
 }

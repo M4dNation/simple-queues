@@ -1,5 +1,5 @@
-const Queue = require("./src/Queue");
+const Queue = require("./src/queue");
 
 module.exports = {
-    Queue
+  Queue,
 };
