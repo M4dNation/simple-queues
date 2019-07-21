@@ -1,6 +1,6 @@
 {
   "name": "simple-queues",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "keywords": [
     "data-structure",
     "queue"
@@ -14,7 +14,7 @@
   "repository": "https://github.com/M4dNation/simple-queues",
   "license": "MIT",
   "devDependencies": {
-    "jest": "24.1.0",
+    "jest": "24.8.0",
     "xo": "0.24.0"
   },
   "prettier": {
