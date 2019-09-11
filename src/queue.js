@@ -3,10 +3,31 @@ class Queue {
    * Build a new queue structure.
    */
   constructor() {
+    this._name = "";
     this.oldestIndex = 1;
     this.newestIndex = 1;
 
     this.storage = {};
+  }
+
+  /**
+   * @getter
+   * Get the name of the queue
+   * @return {String} The name of the queue
+   */
+  get name() {
+    return this._name;
+  }
+
+  /**
+   * @setter
+   * @param {String} name of the queue
+   * Set the name of the queue
+   * @return {String} The name of the queue
+   */
+  set name(name) {
+    this._name = name;
+    return this._name;
   }
 
   /**
