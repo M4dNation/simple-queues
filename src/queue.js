@@ -4,7 +4,7 @@ class Queue {
    */
   constructor() {
 
-    this.name = "";
+    this._name = "";
     this.oldestIndex = 1;
     this.newestIndex = 1;
 	
@@ -17,7 +17,7 @@ class Queue {
    * @return {String} The name of the queue
    */
   get name(){
-    return this.name;
+    return this._name;
   }
 	
   /**
@@ -25,9 +25,9 @@ class Queue {
    * Set the name of the queue
    * @return {String} The name of the queue
    */
-  set name(str){
-   this.name = str;
-   return this.name; 
+  set name(name){
+   this._name = name;
+   return this._name; 
   }
 
   /**
