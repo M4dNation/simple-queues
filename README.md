@@ -34,6 +34,7 @@ import { Queue } from "simple-queues";
 const queue = new Queue();
 const myData = { id: "some-id" };
 
+queue.name = "myTestQ";
 queue.enqueue(myData);
 queue.enqueue("test1");
 
