@@ -13,9 +13,9 @@ describe("Queue", () => {
     const queue = new Queue();
     queue.name = "name";
 
-    expect(queue.name).toBe('name');
+    expect(queue.name).toBe("name");
   });
-  
+
   test("Adding an element to the queue updates newest index.", () => {
     const queue = new Queue();
     queue.enqueue("test");

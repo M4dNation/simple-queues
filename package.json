@@ -14,8 +14,9 @@
   "repository": "https://github.com/M4dNation/simple-queues",
   "license": "MIT",
   "devDependencies": {
-    "jest": "24.8.0",
-    "xo": "0.24.0"
+    "jest": "^24.8.0",
+    "xo": "^0.24.0",
+    "yarn": "^1.17.3"
   },
   "prettier": {
     "tabWidth": 2,
